@@ -90,7 +90,7 @@ h2 {
 section a p {
     position: relative;
     top: 24px;
-    color: #ffffff;
+/* mainly the boxes above each project image needs to be edited because that seems to be whats messing with the responsivness */
     border: 2px solid black;
     background-color: #2a607c;
     color: #ffffff;
