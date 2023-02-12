@@ -1,11 +1,12 @@
 /* possible universal selector */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 .main-header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -30,6 +31,12 @@ font-size: 20px;
     list-style-type: none;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 2%;
+}
+
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -44,7 +51,75 @@ ul li {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/IMG_3014.jpeg");
+    background-image: url("/assets/images/IMG_2941.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+main section {
+    padding: 10px;
+}
+
+p {
+    padding: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: inherit;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card img {
+    width: 100%;
+    min-width: 600px;    
+}
+
+/* this area needs work-adding it made page unresponsive and makes the contact me section pop out of place when screen is wide */
+section a p {
+    position: relative;
+    top: 24px;
+    color: #ffffff;
+    border: 2px solid black;
+    background-color: #2a607c;
+    color: #ffffff;
+    max-width: 300px;
+}
+
+/* this area needs work-adding it made page unresponsive and makes the contact me section pop out of place when screen is wide */
+.p2 {
+    max-width: 600px;
+}
+
+/* this needs work */
+.Contact-Me ul li {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
 }
