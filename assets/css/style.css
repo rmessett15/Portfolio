@@ -44,7 +44,7 @@ ul li {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/6917fea/2147483647/strip/true/crop/2048x1075+0+38/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb8%2F23%2F2e3c2d27ff08e650d08f17439597%2Fla-1501262722-mfga74irzm-snap-image");
+    background-image: url("/assets/images/IMG_3014.jpeg");
     background-size: cover;
     background-position: center;
 }
