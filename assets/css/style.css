@@ -53,7 +53,8 @@ ul li {
     margin-bottom: 25px;
     background-image: url("/assets/images/IMG_2941.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    object-fit: cover;
 }
 
 main section {
@@ -86,8 +87,20 @@ h2 {
     min-width: 600px;    
 }
 
+#project-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+}
+    
+#Work {
+    width: 100%;
+}
+
 /* this area needs work-adding it made page unresponsive and makes the contact me section pop out of place when screen is wide */
-section a p {
+.Work a p {
     position: relative;
     top: 24px;
 /* mainly the boxes above each project image needs to be edited because that seems to be whats messing with the responsivness */
@@ -97,8 +110,12 @@ section a p {
     max-width: 300px;
 }
 
+.Work a {
+    max-width: 300px;
+}
+
 /* this area needs work-adding it made page unresponsive and makes the contact me section pop out of place when screen is wide */
-.p2 {
+#p2 {
     max-width: 600px;
 }
 
@@ -116,10 +133,18 @@ section a p {
     .card {
       width: 50%;
     }
+    #project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        } 
 }
 
 @media screen and (max-width: 768px) {
     .card {
       width: 100%;
     }
+    #project-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        } 
 }
