@@ -23,7 +23,7 @@ https://rmessett15.github.io/Week-1-challenge/
 
 ## Features
 
-Features of this page include a nav bar with links that send you to their corresponding information within the web page (ie. to sections 'About Me', my 'Work', and a 'Contact-Me' area. 
+Features of this page include a nav bar with links that send you to their corresponding information within the web page (ie. to sections 'About Me', my 'Work', and a 'Contact-Me' area. Within the work area, there are images with project numbers above them; when the images are clicked, the site will send users directly to those deployed applications. The contact me section works much the same way as the nav bar; when certain elements are clicked (GitHub, Linkden, amd Twitter) the user will be taken directly to those URLs.
 
 ## How to Contribute
 

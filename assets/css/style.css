@@ -1,12 +1,15 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
 }
 
+/* This elements selectors styling encompasses the entire web application */
 body {
     min-height: 100vh;
     position: relative;
 }
 
+/* This class selector was used to style the nav bar */
 .main-header {
     display: flex;
     flex-wrap: wrap;
@@ -19,21 +22,25 @@ body {
     color: #ffffff;
 }
 
+/* This class selector was used to style my name (title) of the page */
 .main-header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This class selector gave these attributes to the nav bar */
 .main-header nav {
 margin-right: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 font-size: 20px;
 }
 
+/* Class selector-not currently in use */
 .main-header nav ul {
     list-style-type: none;
 }
 
+/* This element selector styles applied to the bottom half of the web app (ie. "About Me", "Work", and "Contact-Me" sections) */
 main {
     display: flex;
     flex-wrap: wrap; 
@@ -41,31 +48,37 @@ main {
     max-width: 1200px;
 }
 
+/* This element selector gave a flex property to the ul within the nav bar */
 nav ul {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* This element selector added margin and padding to the li within the ul for the nav bar */
 nav ul li {
     margin-left: 25px;
     padding: 8px;
 }
 
+/* This element selector made sure the color didn't change from white when the links were clicked: applied to the anchor tag within the li within the ul for the nav bar */
 nav ul li a {
     text-decoration: none;
     color: white;
     
 }
 
+/* This element selector added an underline to each link when the cursor hovers over them (within the nav bar) */
 nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* This element selectors properties are applied to all ul and li's on the page */
 ul li {
     display: inline;
     text-align: center;
 }
 
+/* This class selector added properties to my hero image below the nav bar */
 .hero {
     height: 800px;
     width: 100%;
@@ -76,22 +89,26 @@ ul li {
     object-fit: cover;
 }
 
+/* This element selector added padding around the main section (everything below the hero image and above the footer */
 main section {
     padding: 10px;
 }
 
+/* This element selector added these properties to all p tags on the web application */
 p {
     padding: inherit;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 20px;
 }
 
+/* This element selector added these properties to all h2 tags on the web application */
 h2 {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: inherit;
 }
 
+/* This class selector added flex properties (grow-1) to the sections "About Me", "Work", and "Contact Me" */
 .card {
     flex: 1 0 0;
     padding: 10px;
@@ -100,11 +117,13 @@ h2 {
     border-width: 1px;
 }
 
+/* Class selector-not currently in use */
 .card img {
     width: 100%;
     min-width: 600px;    
 }
 
+/* This class selector added these display and color properties to the container class which was the class my grid was held in */
 .container {
     display: grid;
     grid-template-columns: auto auto;
@@ -113,6 +132,7 @@ h2 {
     border-radius: 10px;
   }
 
+/* This id selector was where I created the dimensions of the grid I used for spacing out project 2 - project 7 */
 #project-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -125,11 +145,13 @@ h2 {
         font-size: 20px;
         text-align: center;
 }
-    
+
+/* This id selector allowed the width of my work section to take up 100% of its container */
 #Work {
     width: 100%;
 }
 
+/* This class selector was where I added boxes containing "Project 2" - "Project 7" */
 .Work a p {
     position: relative;
     top: 24px;
@@ -140,15 +162,18 @@ h2 {
     max-width: 300px;
 }
 
+/* This class selector was used to give a max-width to all a tags within the class="Work" */
 .Work a {
     max-width: 300px;
 }
 
+/* This id selector allowed the image on "Project 1" to be larger than "Project 2" - "Project 7" */
 #p2 {
     max-width: 600px;
     top: 0px;
 }
 
+/* This class selector gave these properties to each li within the ul in the "Contact Me" section (padding, margin, a float, font-family, and font-size */
 .Contact-Me ul li {
     padding-top: 15px;
     margin-right: 20px;
@@ -157,6 +182,7 @@ h2 {
     font-size: 20px;
 }
 
+/* This element selectors attributes make up the styling of my footer */
 footer {
     display:flex;
     height: 100px;
@@ -169,6 +195,7 @@ footer {
     top: 100vh;
 }
 
+/* This id selector is where I added the attributes to the screenshot I added to "Project 1" and also where the URL to the screenshot is linked */
 #p1-img {
     width: 600px;
     height: 400px;
@@ -178,6 +205,7 @@ footer {
     margin: auto;
 }
 
+/* Media query for screen sizes 810px-992px */
 @media screen and (max-width: 992px) {
     .card {
       width: 50%;
@@ -188,6 +216,7 @@ footer {
         } 
 }
 
+/* Media query for screen sizes 768px-810px */
 @media (max-width: 810px) {
     .main-header {
         flex-direction: column;
@@ -198,6 +227,7 @@ footer {
     }
 }
 
+/* Media query for screen sizes 520px-768px */
 @media screen and (max-width: 768px) {
     .card {
       width: 100%;
@@ -208,6 +238,7 @@ footer {
         } 
 }
 
+/* Media query for screen sizes < 520px */
 @media (max-width: 520px) {
     nav ul {
         flex-direction: column;
