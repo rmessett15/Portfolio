@@ -3,15 +3,21 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
 .main-header {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     padding: 60px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #c1a469;
     color: #ffffff;
-
 }
 
 .main-header h1 {
@@ -20,10 +26,9 @@
 }
 
 .main-header nav {
-padding-top: 15px;
 margin-right: 20px;
-float: right;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* float: right; */
+font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 font-size: 20px;
 }
 
@@ -34,12 +39,29 @@ font-size: 20px;
 main {
     display: flex;
     flex-wrap: wrap; 
-    margin-top: 2%;
+    margin: 2% auto;
+    max-width: 1200px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 25px;
+    padding: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 ul li {
@@ -105,7 +127,7 @@ h2 {
     top: 24px;
 /* mainly the boxes above each project image needs to be edited because that seems to be whats messing with the responsivness */
     border: 2px solid black;
-    background-color: #2a607c;
+    background-color: black;
     color: #ffffff;
     max-width: 300px;
 }
@@ -117,6 +139,7 @@ h2 {
 /* this area needs work-adding it made page unresponsive and makes the contact me section pop out of place when screen is wide */
 #p2 {
     max-width: 600px;
+    top: 0px;
 }
 
 /* this needs work */
@@ -127,6 +150,30 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+footer {
+    display:flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1a469;
+    color: #ffffff;
+    margin-top: 30px;
+    position: sticky;
+    top: 100vh;
+}
+
+#p1-img {
+    width: 600px;
+    height: 400px;
+    background-image: url('../images/Screenshot\ 2023-02-12\ at\ 3.13.37\ PM.png');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+
+
 
 
 @media screen and (max-width: 992px) {
@@ -139,6 +186,19 @@ h2 {
         } 
 }
 
+@media (max-width: 810px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+
+}
+
 @media screen and (max-width: 768px) {
     .card {
       width: 100%;
@@ -147,4 +207,16 @@ h2 {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
         } 
+}
+
+
+
+@media (max-width: 520px) {
+
+
+
+
+    nav ul {
+        flex-direction: column;
+    }
 }
