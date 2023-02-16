@@ -12,7 +12,7 @@ https://rmessett15.github.io/Week-1-challenge/
 
 ## Screenshot
 
-![horiseon](https://user-images.githubusercontent.com/120127903/217668115-3e1c83e6-6984-4b66-9c35-4f06f48d7949.png)
+
 
 ## Installation
 
