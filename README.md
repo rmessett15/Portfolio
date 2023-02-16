@@ -11,8 +11,8 @@ The motivation behind this project was to build out a rough outline for my own p
 https://rmessett15.github.io/Week-1-challenge/
 
 ## Screenshot
-
-
+    
+![Screenshot](https://user-images.githubusercontent.com/120127903/219506859-7dbf874a-f168-4d0f-afc7-63e88f30650a.png)
 
 ## Installation
 
