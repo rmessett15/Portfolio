@@ -6,11 +6,6 @@
 
 The motivation behind this project was to build out a rough outline for my own personal porfolio (I repeat, this is a rough outline-more to be added throughout the bootcamp and after). This space will give me a solid platform to showcase my projects and ability to potential employers and customers alike. This process allowed me to see how much room there is to grow within web development, and also about the power of creating a personal brand. This site will provide an oppertunity for potential future employers, colleagues, and partners as evidence of my tenacity and excitment to continue to grow as a developer, and stands as an example of my best foot forward.
 
-
-
-
-The motivation behind this project was to edit the pre existing code of this site to comply with accesibility standards through the use of features such as alt readers so that this marketing agencys website can be optimized for higher functionality on the web. Through this process I learned the importance of clean code structure, use of semantic elements in HTML and more importanly, how to restructure a pre existing code base to ensure optimal performance within highly rated search engines. 
-
 ## Live URL
 
 https://rmessett15.github.io/Week-1-challenge/
@@ -28,7 +23,7 @@ https://rmessett15.github.io/Week-1-challenge/
 
 ## Features
 
-Features of this page include a nav bar with links that send you to their corresponding information within the web page.
+Features of this page include a nav bar with links that send you to their corresponding information within the web page (ie. to sections 'About Me', my 'Work', and a 'Contact-Me' area. 
 
 ## How to Contribute
 
