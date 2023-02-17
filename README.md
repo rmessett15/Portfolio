@@ -8,7 +8,7 @@ The motivation behind this project was to build out a rough outline for my own p
 
 ## Live URL
 
-https://rmessett15.github.io/Week-1-challenge/
+https://rmessett15.github.io/Portfolio/
 
 ## Screenshot
     
@@ -17,7 +17,7 @@ https://rmessett15.github.io/Week-1-challenge/
 ## Installation
 
 1. Clone the repo
-    git clone https://github.com/rmessett15/Week-1-challenge.git
+    git clone https://rmessett15.github.io/Portfolio/
 
 2. Open in VS Code. If you do not have VS code you must install it.
 
