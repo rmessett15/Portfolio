@@ -83,7 +83,7 @@ ul li {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/IMG_2941.jpeg");
+    background-image: url("../images/IMG_2941.jpeg");
     background-size: cover;
     background-position: top;
     object-fit: cover;
